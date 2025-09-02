@@ -14,9 +14,11 @@ The text for pages on the site can be found in src/pages. The framework the site
 ### More Involved Development
 This website uses [11ty](https://www.11ty.dev/) Simple Static Site Generator. You will need to install [Node.js](https://nodejs.org/en/download) version 18 or higher to use it. Once you've got a working Nodejs envirnomment you'll need to install 11ty.
 
-```npm install @11ty/eleventy```
- 
 Then while in the root directory of this repo execute
+
+```npm install```
+
+And then 
 
 ```npx @11ty/eleventy --serve```
 
