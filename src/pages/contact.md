@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 eleventyNavigation:
     key: Contact
-    parent: Home
+    order: 2
 ---
 
 ## Contact

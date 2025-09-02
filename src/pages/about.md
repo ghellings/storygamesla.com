@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 eleventyNavigation:
     key: About
-    parent: Home
+    order: 3
 ---
 
 ## About
