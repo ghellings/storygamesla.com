@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+permalink: /contact/
+title: Contact
+eleventyNavigation:
+    key: Contact
+    parent: Home
+---
+
+## Contact
+
+***
+
+### [Meetup.com](https://www.meetup.com/story-games-la/)
+The is the official spot to RSVP for our events.
+
+### [The Meetup Discord](https://discord.com/invite/qbPzyRYBQv)
+Here is where we hangout. Our virtual game events take place on this Discord. This is also the best place to communicate with the group organizers and the group safety team.
+
+### [The Makers' Discord](https://discord.com/invite/NmM5cG65fE)
+This is where the Makers' virtual events take place. It's also a wonder resource for anyone who's interested in making makes. It full of useful content and discussions. 

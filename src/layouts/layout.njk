@@ -1,0 +1,26 @@
+---
+title: Welcome
+url: http://localhost:8080
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storygames LA - {{ title }}</title>
+    <link rel="stylesheet" href="/bundle.css">
+  </head>
+  <body>
+    <div style="width: 100%; display: table; margin: 0 auto;">
+      <div style="display: table-row">
+        <div style="width: 85px; display: table-cell;"><img alt="" eleventy:widths="80,80" src="/assets/images/SGLA_logo_only_highres.png"></div>
+        <div style="display: table-cell;"><h1>Storygames LA</h1></div>
+      </div>
+      <div style="display: table-row">
+        <div style="width: 85px; display: table-cell;"><h5>{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}</h5></div>
+        <div style="display: table-cell;">{{ content | safe }}</div>
+      </div>
+    </div>
+  </body>
+</html>
