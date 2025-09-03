@@ -23,5 +23,5 @@ This is where the Makers' virtual events take place. It's also a wonder resource
 ### [Bluesky](https://bsky.app/profile/storygamesla.bsky.social)
 Our social media outlet. 
 
-### [Safety Team](mailto://SGLASafetyTeam@googlegroups.com)
+### [Safety Team](mailto:SGLASafetyTeam\@googlegroups.com)
 Email our Safety Team.
