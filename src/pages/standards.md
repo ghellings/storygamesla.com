@@ -19,8 +19,7 @@ This document outlines our community standard and code of conduct guidelines, wh
 * [**Playing Games**](#playing-games)
 * [**Organizing Games**](#running-games)
 * [**Indie RPG Nights**](#indie-rpg-nights)
-* [**In-person sessions**](#organizing-additional-events)
-* [**Online sessions**](#heading=h.2cnrm9kxts40)
+* [**Additional Events**](#organizing-additional-events)
 * [**Safety Tools**](#safety-tools)
 * [**Community Standards**](#community-standards)
 * [**Social Rules**](#social-rules)
@@ -70,7 +69,7 @@ Detailed information on how to schedule meetup events is currently TBD (to be do
 
 ## Safety Tools
 
-Because of the nature of role-playing games, exploring emotions and volatile storylines may come up. To ensure the comfort and safety of our members, we have taken a strong stance on playing with role-playing game safety tools (such as the X-card[^1], Open Door Policy[^2], Lines and Veils[^3], Script Change Tool[^4], larp safewords[^5] such as Cut and Brake, and others). 
+Because of the nature of role-playing games, exploring emotions and volatile storylines may come up. To ensure the comfort and safety of our members, we have taken a strong stance on playing with role-playing game safety tools (such as the [**X-card**](http://tinyurl.com/x-card-rpg), [**Open Door Policy**](http://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/), [**Lines and Veils**](https://gamingally.wordpress.com/tag/lines-and-veils/), [**Script Change Tool**](https://briebeau.com/thoughty/script-change/), [**larp safewords**](https://nordiclarp.org/wiki/Safeword) such as Cut and Brake, and others). 
 
 Although we cover a subset of these prior to running our meetup, it is the responsibility of the game facilitator and players at the table to discuss and use whichever tools make sense for the game and table. At a minimum, we recommend everyone play with the Open Door Policy, and leave a situation if they are not enjoying themselves or the game, at any time. (Communicate if you do not intend on returning to a game, so we know how to proceed without you.)
 
@@ -104,8 +103,8 @@ The social rules name subtle behaviors that put other people down or show how mu
 
 ### No well-actually’s
 
-- Alice: I just played Monster Hearts, my first apocalypse world-based game\!  
-- Bob: It’s actually referred to as “Powered by the Apocalypse”.
+- **Alice:** _I just played Monster Hearts, my first apocalypse world-based game\!_  
+- **Bob:** _It’s actually referred to as “Powered by the Apocalypse”._
 
 A well-actually is when you correct someone about something that’s not relevant to the conversation or tangential to what they’re trying to say. They’re bad because they aren’t helpful, break the flow of conversation, and focus attention on the person making the “well actually”.
 
@@ -113,8 +112,8 @@ This rule can be a bit tricky because there isn’t a clear line between relevan
 
 ### No feigning surprise
 
-- Dan: What’s Band of Blades?  
-- Carol: Wait, you’ve *never* heard of Band of Blades?
+- **Dan:** _What’s Band of Blades?_  
+- **Carol:** _Wait, you’ve **_never_** heard of Band of Blades?_
 
 Feigned surprise is when you act surprised when someone doesn’t know something. Responding with surprise in this situation makes people feel bad for not knowing things and less likely to ask questions in the future, which makes it harder for them to learn.
 
@@ -122,16 +121,16 @@ Note that when someone acts surprised when you don’t know something, it doesn�
 
 ### No backseat driving
 
-- Bob: What’s a good powered by the apocalypse (PbtA) space game?  
-- Alice: Scum and Villainy.  
-- Eve: (from another table) Spacewurm vs. Moonicorn. It’s closer to *true* PbtA.
+- **Bob:** _What’s a good powered by the apocalypse (PbtA) space game?_  
+- **Alice:** _Scum and Villainy._  
+- **Eve:** (from another table) _Spacewurm vs. Moonicorn. It’s closer to **_true_** PbtA._
 
 Backseat driving is when you give advice from across the room (or online chat) without really joining or engaging in a conversation. Because you haven’t been participating in the conversation, it’s easy to miss something important and give advice that’s not actually helpful. Even if your advice is correct, it’s rude to insert yourself into a conversation without asking. If you overhear a conversation where you could be helpful, the best thing to do is to ask to join.
 
 ### No subtle \-isms
 
-- Carol: Forged in the Dark is hard to learn.  
-- Bob: No way. Forged in the Dark is so easy to use that even my mom can play it.
+- **Carol:** _Forged in the Dark is hard to learn._  
+- **Bob:** _No way. Forged in the Dark is so easy to use that even my mom can play it._
 
 Subtle \-isms are subtle expressions of racism, sexism, ageism, homophobia, transphobia and other kinds of bias and prejudice. They are small things that make others feel unwelcome, things that we all sometimes do by mistake. Subtle \-isms make people feel like they don’t belong. We want to create an environment where everyone can focus all their energy on gaming and collaborating, which is hard to do if you’re being made to wonder whether you belong.
 
