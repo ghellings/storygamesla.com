@@ -19,3 +19,9 @@ Here is where we hangout. Our virtual game events take place on this Discord. Th
 
 ### [The Makers' Discord](https://discord.com/invite/NmM5cG65fE)
 This is where the Makers' virtual events take place. It's also a wonder resource for anyone who's interested in making makes. It full of useful content and discussions. 
+
+### [Bluesky](https://bsky.app/profile/storygamesla.bsky.social)
+Our social media outlet. 
+
+### [Safety Team](mailto://SGLASafetyTeam@googlegroups.com)
+Email our Safety Team.

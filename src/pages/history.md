@@ -4,7 +4,7 @@ permalink: /history/
 title: History
 eleventyNavigation:
     key: History
-    order: 4
+    order: 5
 ---
 
 ## History
