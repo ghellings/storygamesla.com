@@ -27,6 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   margin: 1.5rem 0 0.5rem;
 }
+li {
+  margin-bottom: 0.1rem;
+  margin-left: 0.6rem;
+}
 
 p {
   margin-bottom: 1rem;
@@ -110,3 +114,94 @@ label {
 .p-1 { padding: 0.5rem; }
 .p-2 { padding: 1rem; }
 .p-3 { padding: 1.5rem; }
+
+/* ====== FullCalendar Custom Styles ====== */
+.fc {
+  background-color: rgb(218, 219, 221);
+  border-radius: .5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1.1);
+  font-family: inherit;
+  margin: 2rem 0;
+}
+
+
+.fc .fc-button {
+  background-color: #0066cc;
+  border: none;
+  color: white;
+  font-weight: 300;
+  padding: 0.3rem 0.2rem;
+  border-radius: 0.35rem;
+}
+.fc .fc-button:hover {
+  background-color: #aacef3;
+  color: black;
+}
+.fc .fc-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+.fc .fc-button-active {
+  background-color: #004a99;
+  color: white;
+}
+.fc .fc-toolbar-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.fc .fc-list-event {
+  background-color: #b6b9bd;
+  border: none;
+  color: rgb(35, 62, 129);
+  font-weight: 400;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.25rem;
+}
+.fc .fc-month-view .fc-daygrid-event {
+  background-color: #b6b9bd;
+  border: none;
+  color: rgb(35, 62, 129);
+  font-weight: 400;
+  padding: 0.2rem 0.3rem;
+  border-radius: 0.25rem;
+}
+.fc .fc-daygrid-day-number {
+  font-weight: 600;
+}
+.fc .fc-daygrid-day {
+  border: 1px solid #ccc;
+}
+.fc .fc-daygrid-day:hover {
+  background-color: #e6f0fa;
+}
+.fc .fc-scrollgrid {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.fc .fc-scrollgrid-section-header {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+.fc .fc-scrollgrid-section-body {
+  background-color: white;
+}
+.fc .fc-scrollgrid-section-body:hover {
+  background-color: #f9f9f9;
+}
+.fc .fc-col-header-cell {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+.fc .fc-col-header-cell:hover {
+  background-color: #e6f0fa;
+}
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #d0e7ff;
+}
+.fc .fc-daygrid-day.fc-day-today:hover {
+  background-color: #aacef3;
+}
+.fc .fc-list-view {
+  border-radius: 0.5rem;
+}
