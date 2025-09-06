@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   margin: 1.5rem 0 0.5rem;
 }
+h1 { text-shadow: #433d3d 0 10px 15px, #8037bb 10px 20px 15px;}
+h2, h3 { text-shadow: #433d3d 0 10px 15px;}
 li {
   margin-bottom: 0.1rem;
   margin-left: 0.6rem;
@@ -204,4 +206,8 @@ label {
 }
 .fc .fc-list-view {
   border-radius: 0.5rem;
+}
+
+#logo {
+  filter: drop-shadow( 0 10px 20px rgba(0, 0, 0, 1.1));
 }

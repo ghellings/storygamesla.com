@@ -1,0 +1,65 @@
+---
+layout: null
+title: config.yml
+permalink: /admin/config.yml
+tags: admin
+---
+backend:
+  name: github
+  repo: ghellings/storygamesla.com 
+  branch: main
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+site_url: "https://storygamesla.com"
+display_url: "https://storygamesla.com"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "src/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "events"
+    label: "Events"
+    folder: "src/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "people"
+    identifier_field: "name"
+    label: "People"
+    files:
+      - label: "People List"
+        name: "people-list"
+        file: "data/people.json"
+        fields:
+          - { label: "People", name: "people", widget: "list", field: { label: "Person", name: "person", widget: "object", fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Bio", name: "bio", widget: "text" },
+              { label: "Teams", name: "teams", widget: "list", allow_add: true, field: { label: "Team", name: "team", widget: "string" } }
+            ] } }
+  - name: "teams"
+    identifier_field: "name"
+    label: "Teams"
+    folder: "src/team"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }

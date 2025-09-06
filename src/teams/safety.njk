@@ -1,0 +1,15 @@
+---
+permalink: /teams/safety/
+layout: layout.njk
+name: Safety
+description: This is the Safety team
+tags: teams
+---
+<h2>Members of the Safety Team</h2
+<ul>
+{%- for person in people -%}
+  {%- if "safety" in person.teams -%}
+    <li><a href="/people-pages/{{ person.name }}">{{ person.name }}</a></li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
