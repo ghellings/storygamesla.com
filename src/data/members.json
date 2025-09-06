@@ -1,0 +1,24 @@
+{
+  "people": [
+    {
+      "person": {
+        "name": "Greg",
+        "bio": "This is Greg.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Nicole",
+        "bio": "This is Nicole.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    }
+  ]
+}
