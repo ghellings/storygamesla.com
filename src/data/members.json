@@ -9,6 +9,16 @@
           "safety"
         ]
       }
+    },
+    {
+      "person": {
+        "name": "Nicole",
+        "bio": "This is Nicole.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
     }
   ]
 }
