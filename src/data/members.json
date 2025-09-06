@@ -19,6 +19,16 @@
           "safety"
         ]
       }
+    },
+    {
+      "person": {
+        "name": "Chris",
+        "bio": "This is info about Crhis",
+        "teams": [
+          "safety",
+          "organizers"
+        ]
+      }
     }
   ]
 }
