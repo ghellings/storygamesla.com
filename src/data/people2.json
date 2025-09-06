@@ -1,0 +1,11 @@
+{
+  "people": [
+    {
+      "name": "Greg",
+      "bio": "This is Greg.",
+      "teams": [
+        "Safety"
+      ]
+    }
+  ]
+}
