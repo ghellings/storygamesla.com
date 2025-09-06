@@ -3,5 +3,16 @@
   "bio": "This is Greg",
   "teams": [
     "safety"
+  ],
+  "": [
+    {
+      "": {
+        "name": "Greg",
+        "bio": "This is Greg",
+        "teams": [
+          "Safety"
+        ]
+      }
+    }
   ]
 }
