@@ -1,14 +1,14 @@
 ---
 pagination:
-    data: people
+    data: members.people
     size: 1
-    alias: people
-permalink: /people-pages/{{ people.name | slugify }}/
+    alias: members.people
+permalink: /people-pages/{{ members.people.person.name | slugify }}/
 layout: layout.njk
 title: People-Pages
 description: Volunteers of Story Games LA
 ---
 
-<h2>{{ people.name }}</h2>
+<h2>{{ members.people.person.name }}</h2>
 <hr>
-<p>{{ people.bio }}</p>
+<p>{{ members.people.person.bio }}</p>

@@ -8,7 +8,7 @@ description: This is the Safety team
 ---
 <h2>Our Teams</h2>
 <ul>
-{%- for team in collections.teams -%}
-  <li><a href="/teams/{{ team.data.name }}">{{ team.data.name }}</a></li>
+{%- for group in groups.teams -%}
+  <li><a href="/team-pages/{{ group.team.name }}">{{ group.team.name | capitalize  }}</a></li>
 {%- endfor -%}
 </ul>
