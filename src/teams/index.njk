@@ -9,6 +9,6 @@ description: This is the Safety team
 <h2>Our Teams</h2>
 <ul>
 {%- for group in groups.teams -%}
-  <li><a href="/team-pages/{{ group.team.name }}">{{ group.team.name | capitalize  }}</a></li>
+  <li><h3><a href="/team-pages/{{ group.team.name }}">{{ group.team.name | capitalize  }}</a></h></li>
 {%- endfor -%}
 </ul>
