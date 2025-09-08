@@ -1,0 +1,134 @@
+{
+  "people": [
+    {
+      "person": {
+        "name": "Greg",
+        "bio": "This is Greg.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Nicole",
+        "bio": "This is Nicole.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Anne",
+        "bio": "This is Anne.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Gene",
+        "bio": "This is Gene.",
+        "teams": [
+          "dischord",
+          "organizers"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Chris",
+        "bio": "This is Chris.",
+        "teams": [
+          "safety",
+          "organizers"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Tomer",
+        "bio": "This is Tomer.",
+        "teams": [
+          "founders",
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Moe",
+        "bio": "This is Moe",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Kes",
+        "bio": "This is Kes.",
+        "teams": [
+          "dischord",
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Artem",
+        "bio": "This is Artem.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Vixie",
+        "bio": "This is Vixie.",
+        "teams": [
+          "organizers",
+          "safety"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "David",
+        "bio": "This is David.",
+        "teams": [
+          "founders"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Ray",
+        "bio": "This is Ray.",
+        "teams": [
+          "organizers"
+        ]
+      }
+    },
+    {
+      "person": {
+        "name": "Christian",
+        "bio": "This is Chistian.",
+        "teams": [
+          "organizers"
+        ]
+      }
+    }
+
+  ]
+}

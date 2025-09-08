@@ -1,0 +1,28 @@
+{
+  "teams": [
+    {
+      "team": {
+        "name": "Safety",
+        "description": "This is the Safety team."
+      }
+    },
+    {
+      "team": {
+        "name": "Organizers",
+        "description": "This is the Organizers team."
+      }
+    },
+    {
+      "team": {
+        "name": "Dischord",
+        "description": "This is the Dischord moderaters team."
+      }
+    },
+    {
+      "team": {
+        "name": "Founders",
+        "description": "These are the founders of Story Games LA."
+      }
+    }  
+  ]
+}
