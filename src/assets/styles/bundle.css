@@ -21,6 +21,12 @@ body {
   min-height: 100vh;
 }
 
+ul { list-style: square outside;}
+ul.nav-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* ====== Basic Typography ====== */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;

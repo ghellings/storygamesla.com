@@ -1,8 +1,9 @@
 ---
 title: Welcome
 url: http://localhost:8080
+navigationOptions:
+  listClass: "nav-list"
 ---
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,12 +16,12 @@ url: http://localhost:8080
   <body>
     <div style="width: 100%; display: table; margin: 0 auto;">
       <div style="display: table-row">
-        <div style="width: 85px; display: table-cell;"><img alt="" eleventy:widths="80,80" id="logo" src="/assets/images/SGLA_logo_only_highres.png"></div>
+        <div style="width: 110px; display: table-cell;"><img alt="" eleventy:widths="80,80" id="logo" src="/assets/images/SGLA_logo_only_highres.png"></div>
         <div style="display: table-cell;"><h1>Storygames LA</h1></div>
       </div>
       <div style="display: table-row">
-        <div style="width: 100px; display: table-cell;">
-          <h5>{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}</h5>
+        <div style="width: 110px; display: table-cell;">
+          <h5>{{ collections.all | eleventyNavigation | eleventyNavigationToHtml({ listClass: "nav-list"}) | safe }}</h5>
         </div>
         <div display: table-cell;">
           {{ content | safe }}
