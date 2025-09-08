@@ -20,7 +20,7 @@ export default function (eleventyConfig) {
   eleventyConfig.setDataDirectory("data");
   eleventyConfig.setOutputDirectory("dist");
   eleventyConfig.setInputDirectory("src");
-  eleventyConfig.setIncludesDirectory("layouts");
+  eleventyConfig.setIncludesDirectory("includes");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyPluginRobotsTxt, {
     rules: new Map([ ["*",[{ allow: "/"}] ]]),
