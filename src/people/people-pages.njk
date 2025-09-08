@@ -1,4 +1,5 @@
 ---
+eleventyExludeFromCollections: true
 pagination:
     data: members.people
     size: 1
@@ -7,6 +8,8 @@ permalink: /people-pages/{{ members.people.person.name | slugify }}/
 layout: layout.njk
 title: People-Pages
 description: Volunteers of Story Games LA
+sitemap:
+    ignore: true
 ---
 
 <h2>{{ members.people.person.name }}</h2>

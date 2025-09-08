@@ -24,12 +24,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(eleventyPluginRobotsTxt, {
     rules: new Map([ ["*",[{ allow: "/"}] ]]),
-    sitemap: "https://www.storygamesla.com/sitemap.xml"
-  });
-  eleventyConfig.addPlugin(eleventyPluginSitemap, {
-	sitemap: {
-	  hostname: "https://www.storygamesla.com",
-	},
+    sitemapURL: "https://storygamesla.com/sitemap.xml"
   });
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// output image formats
@@ -50,4 +45,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/ical/download.ics");
 
   eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions))
+  
+  eleventyConfig.addPlugin(eleventyPluginSitemap, {
+	  sitemap: {
+	    hostname: "https://storygamesla.com",
+	    changefreq: "weekly",
+      priority: 0.7,
+      trailingSlash: false
+    },
+  });
 };

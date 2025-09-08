@@ -15,7 +15,7 @@ description: Teams of Story Games LA
 
 <h3>Members</h3>
 <ul>
-{%- for member in members.people -%}
+{%- for member in members.people | sort(false,false,false, person.name ) -%}
     {% if groups.teams.team.name in member.person.teams %}
         <li><a href="/people-pages/{{ member.person.name | slugify }}">{{ member.person.name }}</a></li>
     {% endif %}
