@@ -18,6 +18,6 @@ This website uses [11ty](https://www.11ty.dev/) Simple Static Site Generator. Yo
 
 And then 
 
-```npx @11ty/eleventy --serve```
+```npm run start```
 
 This will launnch a website on [http://localhost:8080](http://localhost:8080). From here you can start making changes to files and see them immediately reflected. 
