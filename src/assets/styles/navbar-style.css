@@ -66,19 +66,17 @@ nav{
     display: block;
   }
 
-  .calendar{
-    display: none;
-  }
- 
+ .calendar{
+    transform: scale(50%);
+  } 
+
 }
 @media only screen and (max-width: 640px){
   nav{
     justify-content: space-between;
     padding: 0 5vw;
   }
-  .calendar{
-    display: none;
-  }
+
 }
 .nav-active{
   transform: translateX(0);
@@ -87,9 +85,6 @@ nav{
   .nav-links{
     width: 100%;
     transition:All 0.5s ease;
-  }
-  .calendar{
-    display: none;
   }
 }
 .nav-active{
