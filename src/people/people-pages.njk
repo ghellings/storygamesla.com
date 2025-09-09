@@ -12,6 +12,6 @@ sitemap:
     ignore: true
 ---
 
-<h2>{{ members.people.person.name }}</h2>
+<h2>{{ members.people.person.name }} ( {{ members.people.person.pronouns | join("/") }} )</h2>
 <hr>
 <p>{{ members.people.person.bio }}</p>

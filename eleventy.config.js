@@ -42,7 +42,9 @@ export default function (eleventyConfig) {
 	});
   eleventyConfig.addPlugin(RenderPlugin);
   eleventyConfig.addPassthroughCopy("src/assets/styles/bundle.css");
+  eleventyConfig.addPassthroughCopy("src/assets/styles/navbar-style.css");
   eleventyConfig.addPassthroughCopy("src/assets/ical/download.ics");
+   eleventyConfig.addPassthroughCopy("src/assets/scripts/navbar.js");
 
   eleventyConfig.setLibrary("md", markdownIt(markdownItOptions).use(markdownItAnchor, markdownItAnchorOptions))
   

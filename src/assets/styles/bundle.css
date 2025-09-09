@@ -21,10 +21,8 @@ body {
   min-height: 100vh;
 }
 
-ul { list-style: square outside;}
-ul.nav-list {
+ul.nav-links {
   list-style: none;
-  padding-left: 0;
 }
 
 /* ====== Basic Typography ====== */

@@ -11,22 +11,25 @@ navigationOptions:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storygames LA - {{ title }}</title>
     <link rel="stylesheet" href="/assets/styles/bundle.css">
+    <link rel="stylesheet" href="/assets/styles/navbar-style.css">
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
   </head>
   <body>
-    <div style="width: 100%; display: table; margin: 0 auto;">
-      <div style="display: table-row">
-        <div style="width: 110px; display: table-cell;"><img alt="" eleventy:widths="80,80" id="logo" src="/assets/images/SGLA_logo_only_highres.png"></div>
-        <div style="display: table-cell;"><h1>Storygames LA</h1></div>
+    <nav>
+      <img alt="" eleventy:widths="80,80" id="logo" src="/assets/images/SGLA_logo_only_highres.png">  
+      <div class="logo">
+        <h2>Storygames LA</h2>
       </div>
-      <div style="display: table-row">
-        <div style="width: 110px; display: table-cell;">
-          <h5>{{ collections.all | eleventyNavigation | eleventyNavigationToHtml({ listClass: "nav-list"}) | safe }}</h5>
-        </div>
-        <div display: table-cell;">
-          {{ content | safe }}
-        </div>
-      </div>     
-    </div>
+
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({ listClass: "nav-links"}) | safe }}
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <script async src="/assets/scripts/navbar.js"></script>
+    <div class="main">{{ content | safe }}</div>
   </body>
 </html>

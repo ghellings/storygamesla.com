@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "deploy": "npx @11ty/eleventy && echo aws s3 cp ./dist s3://storygamesla.com/ --recursive"
+    "deploy": "npx @11ty/eleventy && aws s3 sync dist/ s3://storygamesla.com/ --delete"
   },
   "keywords": [],
   "author": "",
