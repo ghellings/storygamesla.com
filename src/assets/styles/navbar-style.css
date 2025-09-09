@@ -67,7 +67,9 @@ nav{
   }
 
  .calendar{
-    transform: scale(50%);
+    display: flex;
+    transform: translateY(200%);
+    transition:All 0.5s ease-in;
   } 
 
 }
