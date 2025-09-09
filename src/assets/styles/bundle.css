@@ -129,14 +129,12 @@ label {
   font-family: inherit;
   margin: 2rem 0;
 }
-
-
 .fc .fc-button {
   background-color: #0066cc;
   border: none;
   color: white;
   font-weight: 300;
-  padding: 0.3rem 0.2rem;
+  padding: 0.05rem 0.05rem;
   border-radius: 0.35rem;
 }
 .fc .fc-button:hover {
@@ -153,7 +151,7 @@ label {
   color: white;
 }
 .fc .fc-toolbar-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
 }
 .fc .fc-list-event {
@@ -212,6 +210,13 @@ label {
   border-radius: 0.5rem;
 }
 
+
 #logo {
   filter: drop-shadow( 0 10px 20px rgba(0, 0, 0, 1.1));
+}
+
+div.main {
+  width: 90%;
+  margin: auto;
+  align-content: center;
 }

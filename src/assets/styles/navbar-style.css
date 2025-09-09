@@ -68,7 +68,7 @@ nav{
 
  .calendar{
     display: flex;
-    transform: translateY(200%);
+    transform: scale(40%) translate(-30%,30%);
     transition:All 0.5s ease-in;
   } 
 
@@ -78,6 +78,11 @@ nav{
     justify-content: space-between;
     padding: 0 5vw;
   }
+ .calendar{
+    display: flex;
+    transform: scale(60%) translate(-30%,30%);
+    transition:All 0.5s ease-in;
+  } 
 
 }
 .nav-active{
@@ -88,6 +93,12 @@ nav{
     width: 100%;
     transition:All 0.5s ease;
   }
+   .calendar{
+    display: flex;
+    transform: scale(40%) translate(-90%,50%);
+    transition:All 0.5s ease-in;
+  } 
+
 }
 .nav-active{
   transform: translateX(0);
