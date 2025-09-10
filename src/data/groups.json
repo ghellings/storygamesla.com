@@ -3,7 +3,7 @@
     {
       "team": {
         "name": "safety",
-        "description": "Our Safety team is responsible for creating and ensuring our community standards ( http://storygamesla.com/standards/ )"
+        "description": "Our Safety team is responsible for creating and ensuring our [community standards]( /standards/ )"
       }
     },
     {
@@ -15,7 +15,7 @@
     {
       "team": {
         "name": "discord",
-        "description": "Our Discord team is responsible for the maintenance and moderation of the Story Games LA Discord channel ( https://discord.com/invite/qbPzyRYBQv ). They do not manage the Story Games LA RPG Maker's Meetup Discord. That is managed by the RPGMM team."
+        "description": "Our Discord team is responsible for the maintenance and moderation of the [Story Games LA Discord channel]( https://discord.com/invite/qbPzyRYBQv ). They do not manage the Story Games LA RPG Maker's Meetup Discord. That is managed by the [RPGMM]( /team-pages/rpgmm/ ) team."
       }
     },
     {
@@ -27,7 +27,7 @@
     {
       "team": {
         "name": "RPGMM",
-        "description": "This is the Story Games LA RPG Maker's Meetup team. They manage the online meetup and Discord ( https://discord.com/invite/NmM5cG65fE ) for the group."
+        "description": "This is the Story Games LA RPG Maker's Meetup team. They manage the online meetup and [Discord]( https://discord.com/invite/NmM5cG65fE ) for the group."
       }
     }
   ]
