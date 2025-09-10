@@ -57,9 +57,10 @@ nav{
     padding: 0;
     transform: translateX(100%);
     transition:All 0.5s ease-in;
+    opacity: 0;
   }
   .nav-links a{
-    opacity: 0;
+    opacity: 1;
  
   }
   .burger{
@@ -87,6 +88,7 @@ nav{
 }
 .nav-active{
   transform: translateX(0);
+  opacity: 100;
 }
 @media only screen and (max-width: 460px){
   .nav-links{
@@ -121,4 +123,8 @@ nav{
 }
 .toggle .line3{
    transform: rotate(45deg) translate(-5px,-6px );
+}
+
+.calendar-inactive{
+  opacity: 0;
 }
