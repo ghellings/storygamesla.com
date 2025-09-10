@@ -9,7 +9,8 @@
           "safety"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -22,7 +23,8 @@
           "safety"
         ],
         "pronouns": [
-          "she", "her"
+          "she",
+          "her"
         ]
       }
     },
@@ -35,7 +37,8 @@
           "safety"
         ],
         "pronouns": [
-          "ze","zir"
+          "ze",
+          "zir"
         ]
       }
     },
@@ -48,7 +51,8 @@
           "organizers"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -61,7 +65,8 @@
           "organizers"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -75,7 +80,8 @@
           "safety"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -88,7 +94,8 @@
           "safety"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -102,7 +109,9 @@
           "safety"
         ],
         "pronouns": [
-          "he","they","she"
+          "he",
+          "they",
+          "she"
         ]
       }
     },
@@ -115,7 +124,8 @@
           "safety"
         ],
         "pronouns": [
-          "he", "they"
+          "he",
+          "they"
         ]
       }
     },
@@ -128,7 +138,8 @@
           "safety"
         ],
         "pronouns": [
-          "she", "her"
+          "she",
+          "her"
         ]
       }
     },
@@ -140,7 +151,8 @@
           "founders"
         ],
         "pronouns": [
-          "he","him"
+          "he",
+          "him"
         ]
       }
     },
@@ -152,7 +164,8 @@
           "organizers"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
     },
@@ -161,13 +174,24 @@
         "name": "Christian",
         "bio": "This is Chistian.",
         "teams": [
-          "organizers"
+          "organizers",
+          "RPGMM"
         ],
         "pronouns": [
-          "he", "him"
+          "he",
+          "him"
         ]
       }
+    },
+    {
+      "person": {
+        "name": "Jesse",
+        "bio": "This is Jesse.",
+        "teams": [
+          "RPGMM"
+        ],
+        "pronouns": "he, him"
+      }
     }
-
   ]
 }
