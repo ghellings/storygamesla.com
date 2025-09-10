@@ -182,6 +182,16 @@
           "him"
         ]
       }
+    },
+    {
+      "person": {
+        "name": "Jesse",
+        "bio": "This is Jesse.",
+        "teams": [
+          "RPGMM"
+        ],
+        "pronouns": "he, him"
+      }
     }
   ]
 }
