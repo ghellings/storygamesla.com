@@ -47,7 +47,7 @@ nav{
     position: absolute;
     right: 0;
     top:8vh;
-    min-height:92vh;
+    min-height:45vh;
     background: #333;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@ nav{
 
  .calendar{
     display: flex;
-    transform: scale(40%) translate(-30%,30%);
+    transform: scale(70%) translate(-30%,30%);
     transition:All 0.5s ease-in;
   } 
 
@@ -81,7 +81,7 @@ nav{
   }
  .calendar{
     display: flex;
-    transform: scale(60%) translate(-30%,30%);
+    transform: scale(70%) translate(-30%,30%);
     transition:All 0.5s ease-in;
   } 
 
@@ -97,7 +97,7 @@ nav{
   }
    .calendar{
     display: flex;
-    transform: scale(40%) translate(-90%,50%);
+    transform: scale(60%) translate(-25%,50%);
     transition:All 0.5s ease-in;
   } 
 
