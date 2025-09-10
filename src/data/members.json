@@ -190,7 +190,10 @@
         "teams": [
           "RPGMM"
         ],
-        "pronouns": "he, him"
+        "pronouns": [ 
+          "he", 
+          "him" 
+        ]
       }
     }
   ]
