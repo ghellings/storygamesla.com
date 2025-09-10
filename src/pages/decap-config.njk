@@ -24,6 +24,12 @@ public_folder: "/images/uploads"
 site_url: "https://storygamesla.com"
 display_url: "https://storygamesla.com"
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: storygamesla
+    api_key: 387918349724174
+
 collections:
   - name: "pages"
     label: "Pages"
@@ -43,6 +49,16 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Location", name: "location", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "games"
+    label: "Games"
+    folder: "src/games"
+    create: true
+    slug: "{{game}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Url", name: "url", widget: "string" }
+      - { label: "Authors", name: "authors", "widget" : "list" }
+      - { label: "Body", name: "body", widget: "markdown" }      
   - label: "Data"
     name: "data"
     files:
@@ -53,7 +69,7 @@ collections:
           - { name: "people", widget: list, fields: [
               { name: "person",  widget: "object", fields: [
                 { label: "Name", name: "name", widget: "string" },
-                { label: "Bio", name: "bio", widget: "text" },
+                { label: "Bio", name: "bio", widget: "markdown" },
                 { label: "Teams", name: "teams", widget: "list" },
                 { label: "Pronouns", name: "pronouns", widet: "list" }
               ] }
@@ -65,7 +81,7 @@ collections:
           - { name: "teams", widget: list, fields: [
               { name: "team", widget: "object", fields: [
                 { label: "Name", name: "name", widget: "string" },
-                { label: "Description", name: "description", widget: "text" }
+                { label: "Description", name: "description", widget: "markdown" }
               ] }
             ] }
 {% endraw %}  

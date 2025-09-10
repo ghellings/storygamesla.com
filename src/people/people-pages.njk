@@ -14,4 +14,4 @@ sitemap:
 
 <h2>{{ members.people.person.name }} ( {{ members.people.person.pronouns | join("/") }} )</h2>
 <hr>
-<p>{{ members.people.person.bio }}</p>
+<p>{{ members.people.person.bio | renderContent("md") | safe }}</p>
