@@ -11,7 +11,7 @@ description: Teams of Story Games LA
 
 <h2>{{ groups.teams.team.name | capitalize }}</h2>
 <hr>
-<p>{{ groups.teams.team.description }}</p>
+<p>{{ groups.teams.team.description | urlize | safe }}</p>
 
 <h3>Members</h3>
 <ul>
