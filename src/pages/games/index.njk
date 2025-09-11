@@ -1,0 +1,16 @@
+---
+permalink: /games/
+layout: layout.njk
+eleventyNavigation:
+  key: games
+title: games
+description: Games
+eleventyImport:
+    collections: ["game"]
+---
+<h2>Games</h2>
+<ul>
+{%- for game in collections.game | sort(false, false, "collections.game.data.title" ) -%}
+  <li><h3><a href="/games/{{ game.data.title | slugify }}">{{ game.data.title | capitalize  }}</a></h></li>
+{%- endfor -%}
+</ul>

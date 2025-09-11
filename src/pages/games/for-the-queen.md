@@ -6,7 +6,8 @@ permalink: /games/for-the-queen/
 gameauthors:
   - Alex.Roberts
 image: https://res.cloudinary.com/storygamesla/image/upload/v1757545885/iu_a6dok2.jpg
-tags: 
+tags:
+  - game
   - gmless
   - cards
 ---

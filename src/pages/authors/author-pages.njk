@@ -7,11 +7,17 @@ pagination:
 permalink: /author-pages/{{ authors.authors.author.name | lower | slugify }}/
 layout: layout.njk
 title: Author-Pages
+eleventyImport:
+    collections: ["game"]
 description: Authors of TTRPGs
-sitemap:
-    ignore: true
 ---
 
 <h2>{{ authors.authors.author.name | replace(".", " ") }}</h2>
+<h3>Games</h3>
+<ul>
+{% for g in collections.game | sort(false, false, "collections.game.data.title" )  %}
+    <li><a href="/games/{{g.data.title | slugify }}">{{ g.data.title }}</a></li>
+{% endfor %}
+</ul>
 <hr>
 <p>{{ authors.authors.author.bio | renderContent("md") | safe }}</p>
