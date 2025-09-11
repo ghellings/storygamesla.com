@@ -53,12 +53,14 @@ collections:
     label: "Games"
     folder: "src/games"
     create: true
-    slug: "{{game}}"
+    slug: "{{slug}}"
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layout.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Url", name: "url", widget: "string" }
       - { label: "Authors", name: "authors", "widget" : "list" }
-      - { label: "Body", name: "body", widget: "markdown" }      
+      - { label: "Body", name: "body ", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
   - label: "Data"
     name: "data"
     files:
@@ -84,4 +86,14 @@ collections:
                 { label: "Description", name: "description", widget: "markdown" }
               ] }
             ] }
+      - name: "authors"
+        label: "authors" 
+        file: "src/data/authors.json"
+        fields:
+          - { name: "authors", widget: list, fields: [
+              { name: "author", widget: "object", fields: [
+                { label: "Name", name: "name", widget: "string" },
+                { label: "Bio", name: "bio", widget: "markdown" }
+              ] }
+            ] }      
 {% endraw %}  

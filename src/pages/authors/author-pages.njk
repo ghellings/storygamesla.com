@@ -1,0 +1,17 @@
+---
+eleventyExludeFromCollections: true
+pagination:
+    data: authors.authors
+    size: 1
+    alias: authors.authors
+permalink: /author-pages/{{ authors.authors.author.name | lower | slugify }}/
+layout: layout.njk
+title: Author-Pages
+description: Authors of TTRPGs
+sitemap:
+    ignore: true
+---
+
+<h2>{{ authors.authors.author.name | replace(".", " ") }}</h2>
+<hr>
+<p>{{ authors.authors.author.bio | renderContent("md") | safe }}</p>

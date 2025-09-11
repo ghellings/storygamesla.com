@@ -1,0 +1,28 @@
+---
+layout: layout.njk
+---
+<game>
+    <div class="info">
+        <h1 class="info" id="info">{{ title }}</h1>
+        {%- if gameauthors.length < 2 -%}
+        <h2>Author:</h2>
+        <a href="/author-pages/{{gameauthors | string | slugify }}/">{{ gameauthors | string |replace("."," ", 10)}}</a>
+        {%- else -%}
+        <h2>Authors:</h2>
+        {%- for author in gameauthors -%}
+        | <a href="/author-pages/{{ author | slugify }}/">{{ author.replace("."," ", 10)}}</a> |&nbsp;
+        {%- endfor -%}
+        {%- endif -%}
+        <h2>Website:</h2>
+        {{ url | urlize | safe }}
+        <h4>Tags:</h4>
+        <div class="tags">
+        |&nbsp;
+        {%- for tag in tags -%}
+            <a href="/tags/{{tag}}/">{{tag}}</a>&nbsp;|&nbsp;  
+        {%- endfor -%}
+        </div>
+    </div>
+    <div><img alt="{{ title }}" id="gameimage" src="{{ image }}"></div>
+    <div class="gamedesc">{{ content | safe }}</div>
+</game>
