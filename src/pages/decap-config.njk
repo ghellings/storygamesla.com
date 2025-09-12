@@ -40,7 +40,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "events"
     label: "Events"
-    folder: "src/events"
+    folder: "src/pages/events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -50,16 +50,18 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "games"
     label: "Games"
-    folder: "src/games"
+    folder: "src/pages/games"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "layout.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Url", name: "url", widget: "string" }
-      - { label: "Authors", name: "gameauthors", "widget" : "list" }
-      - { label: "Body", name: "body ", widget: "markdown" }
+      - { label: "Authors", name: "gameauthors", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
+      - { label: "Tags", name: "tags", widget: "list", default: [ "game" ] }
+      - { label: "Permalink", name: "permalink", widget: "string", default: "/games/" }
   - label: "Data"
     name: "data"
     files:

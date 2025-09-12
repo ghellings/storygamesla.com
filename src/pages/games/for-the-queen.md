@@ -11,5 +11,4 @@ tags:
   - gmless
   - cards
 ---
-
 For the Queen is a GMless card-drive story game. 
