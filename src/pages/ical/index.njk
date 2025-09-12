@@ -1,0 +1,10 @@
+---
+permalink: /ical/
+layout: layout.njk
+---
+<h2>Events</h2>
+<ul>
+{% for event in icalFetch %}
+    <li><b>{{event.summary}}</b> <i>{{event.start }}</i> <a href="{{ event.url.val }}">{{event.uid}}</a></li>
+{% endfor %}
+</ul>
