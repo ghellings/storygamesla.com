@@ -12,6 +12,7 @@ sitemap:
     ignore: true
 ---
 
-<h2>{{ members.people.person.name }} ( {{ members.people.person.pronouns | join("/") }} )</h2>
+{%- set people = members.people -%}
+<h2>{{ people.person.name }} ( {{ people.person.pronouns | join("/") }} )</h2>
 <hr>
-<p>{{ members.people.person.bio | renderContent("md") | safe }}</p>
+<p>{{ people.person.bio | renderContent("md") | safe }}</p>

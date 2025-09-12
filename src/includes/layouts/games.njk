@@ -19,7 +19,10 @@ layout: layout.njk
         <div class="tags">
         |&nbsp;
         {%- for tag in tags -%}
-            <a href="/tags/{{tag}}/">{{tag}}</a>&nbsp;|&nbsp;  
+            {%- if tag == "game" -%}
+            {%- else -%}
+            <a href="/games/tags/{{tag}}/">{{tag}}</a>&nbsp;|&nbsp;
+            {%- endif -%}  
         {%- endfor -%}
         </div>
     </div>

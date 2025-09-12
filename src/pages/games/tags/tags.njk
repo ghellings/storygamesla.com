@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - tags
+    - game
+permalink: /games/tags/{{ tag }}/
+---
+
+<h1>Tagged “{{ tag  }}”</h1>
+
+<ul>
+{% set taglist = collections[ tag ] %}
+{% for tag in taglist %}
+  <li><a href="/games/{{ tag.data.title | slugify }}/">{{ tag.data.title }}</a></li>
+{% endfor %}
+</ul>

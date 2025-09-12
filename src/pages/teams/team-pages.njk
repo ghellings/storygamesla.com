@@ -9,14 +9,15 @@ title: Team-Pages
 description: Teams of Story Games LA
 ---
 
-<h2>{{ groups.teams.team.name | capitalize }}</h2>
+{%- set teams = groups.teams -%}
+<h2>{{ teams.team.name | capitalize }}</h2>
 <hr>
-<p>{{ groups.teams.team.description | renderContent("md") | safe }}</p>
+<p>{{ teams.team.description | renderContent("md") | safe }}</p>
 
 <h3>Members</h3>
 <ul>
 {%- for member in members.people | sort(false, false, "person.name" ) -%}
-    {% if groups.teams.team.name in member.person.teams %}
+    {% if teams.team.name in member.person.teams %}
         <li><a href="/people-pages/{{ member.person.name | slugify }}">{{ member.person.name }}</a></li>
     {% endif %}
 {%- endfor -%}
