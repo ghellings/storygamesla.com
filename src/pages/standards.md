@@ -8,6 +8,7 @@ eleventyNavigation:
 ---
 
 ## Overview
+---
 
 Story Games LA is a Los Angeles, California based meetup that was created for running independent and small-press role-playing and story games, and has been running since October 2016\. We try to provide an inclusive space, and do not tolerate harassment or prejudice of any kind, including that based on race, ethnicity, religion, gender, age, or disabilities. (Note: In March 2024 the meetup name changed from Story Games Glendale to Story Games LA.)
 

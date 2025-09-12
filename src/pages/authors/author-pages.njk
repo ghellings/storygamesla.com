@@ -11,12 +11,14 @@ eleventyImport:
     collections: ["game"]
 description: Authors of TTRPGs
 ---
-
-<h2>{{ authors.authors.author.name | replace(".", " ") }}</h2>
+{%- set name = authors.authors.author.name  -%}
+<h2>{{ name | replace(".", " ") | capitalize  }}</h2>
 <h3>Games</h3>
 <ul>
 {% for g in collections.game | sort(false, false, "collections.game.data.title" )  %}
+    {% if name in g.data.gameauthors %}
     <li><a href="/games/{{g.data.title | slugify }}">{{ g.data.title }}</a></li>
+    {% endif %}
 {% endfor %}
 </ul>
 <hr>

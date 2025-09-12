@@ -54,14 +54,14 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "game.njk" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "games.njk" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Url", name: "url", widget: "string" }
       - { label: "Authors", name: "gameauthors", widget: "list" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Tags", name: "tags", widget: "list", default: [ "game" ] }
-      - { label: "Permalink", name: "permalink", widget: "string", default: "/games/" }
+      - { label: "Permalink", name: "permalink", widget: "string", default: "/games/CHANGME" }
   - label: "Data"
     name: "data"
     files:
