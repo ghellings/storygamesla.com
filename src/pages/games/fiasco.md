@@ -14,4 +14,4 @@ tags:
   - cinematic
 permalink: /games/fiasco/
 ---
-_Fiasco_ is one of the grand daddy's of story games. This game is heavily inspired by the _Coen brothers'_ films like _Faro_ and _Blood Simple_. You play in dramatic situations that go disastrously wrong usually while role playing as horrible people making stupid and greedy choices.
+_Fiasco_ is one of the grand daddy's of story games. This game is heavily inspired by the _Coen brothers'_ films like _Fargo_ and _Blood Simple_. You play in dramatic situations that go disastrously wrong usually while role playing as horrible people making stupid and greedy choices.

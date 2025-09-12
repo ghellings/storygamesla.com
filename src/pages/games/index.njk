@@ -8,10 +8,10 @@ description: Games
 eleventyImport:
     collections: ["game"]
 ---
-<h2>Games</h2>
+<h2>Games We Play</h2>
 <hr>
 <ul>
 {%- for game in collections.game | sort(false, false, "collections.game.data.title" ) -%}
-  <li><h3><a href="/games/{{ game.data.title | slugify }}">{{ game.data.title | capitalize  }}</a></h3></li>
+  <li><h3><a href="/games/{{ game.data.title | slugify }}">{{ game.data.title | title  }}</a></h3></li>
 {%- endfor -%}
 </ul>
