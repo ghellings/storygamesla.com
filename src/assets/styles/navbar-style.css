@@ -25,7 +25,7 @@ nav{
   transform: translateX(0%);
 }
 .nav-links a:hover{
-  color:#38b8ff;
+  color:rgb(185, 46, 46);
   letter-spacing: 5px;
 }
 .burger{
