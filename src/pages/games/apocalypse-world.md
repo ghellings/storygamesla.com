@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: games.njk
 title: Apocalypse World
 url: http://apocalypse-world.com/
 gameauthors:
@@ -15,6 +15,6 @@ tags:
   - moves
   - mc
   - apocalypse
-permalink: /games/apocaslype-world
+permalink: /games/apocalypse-world/
 ---
 The game that launched a hundred other story games. This is the apocalypse in **PbtA** ( Power by the Apocalypse ). This game originated or made popular many staples in story games today, _e.g.,_ **playbooks**, **moves**, **hold**. 
