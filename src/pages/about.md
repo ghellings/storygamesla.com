@@ -19,13 +19,13 @@ Any experience level is welcome, with no prior knowledge required. Almost all ga
 ### WHAT GAMES DO WE PLAY?
  We play games that allow us to come together to have a good time telling a story collaboratively. We do not generally play games with a win condition. Some games we play have a game master (GM) and players, similar to D&D. Other games are “GM-less” or "GM-ful", and have no game master, where the rules of the game have us share narrative authority so we all have similar control over the story. Some examples include:
 
-- Apocalypse World
-- Blades in the Dark
-- Dream Askew
-- Fiasco
-- For The Queen
-- The Quiet Year
-- Microscope
+- [Apocalypse World](/games/apocalypse-world/)
+- [Blades in the Dark](/games/blades-in-the-dark/)
+- [Dream Askew](/games/dream-askew/)
+- [Fiasco](/games/fiasco/)
+- [For The Queen](/games/for-the-queen/)
+- [The Quiet Year](/games/the-quiet-year/)
+- [Microscope](/games/microscope/)
 
 
 ### WHAT GAMES DO WE AVOID?
